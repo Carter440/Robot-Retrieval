@@ -1,0 +1,75 @@
+html{
+	background-color: #d0e4fe;
+}
+
+h1{
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+body{
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#TTL{
+	font-family: "Lucida Console", Monaco, monospace;
+}
+#both{
+    position: relative;
+    margin: auto;
+}
+
+#startButton{
+	float: left;
+}
+
+.button{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-color: #75FB9E;
+	border: 3px outset #666666;
+	width: 20%;
+	height: 50px;
+}
+#bothb{
+	text-overflow: ellipsis;
+}
+#roboAlg{
+	border: 3px solid #000000;
+	background-color: #FFFFFF;
+	height: 200px;
+	width: 100%;
+}
+
+#distR{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	float: right;
+}
+
+#explain{
+	border: 3px solid #000000;
+	background-color: #FFFFFF;
+	position: relative;
+	font-family: "Lucida Console", Monaco, monospace;
+	text-align: center;
+	margin: auto;
+	margin-top: 30px;
+}
+
+#contain{
+	height: 50px;
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+	margin: auto;
+}
