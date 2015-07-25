@@ -1,4 +1,5 @@
-"use strict";
+//Carter Slocum, R. Libeskind-Hadas
+//script simulates Greedy and double coverage algorythms.
 var c;
 var ctx;
 var setup = true;
@@ -162,6 +163,11 @@ function reDraw(){
 $("#both").mousedown(function(e){
 	$(this).css('border', '3px inset #666666');
 	$(this).css('background-color', '#69E28E');
+});
+
+$("#both").mouseleave(function(e){
+	$(this).css('border', '3px outset #666666');
+	$(this).css('background-color', '#75FB9E');
 });
 
 $("#both").mouseup(function(e){

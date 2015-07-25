@@ -8,6 +8,10 @@ h1{
 	text-align: center;
 }
 
+span{
+	font-size: 9px;
+}
+
 body{
 	width: 90%;
 	padding-left: 5%;
